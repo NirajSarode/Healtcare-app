@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1752021545",
+    "firebase_url": "https://server-a6b11.firebaseio.com",
+    "project_id": "server-a6b11",
+    "storage_bucket": "server-a6b11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1752021545:android:f7dd3dc1b3ca20d2",
+        "android_client_info": {
+          "package_name": "com.nirajsarode.heal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1752021545-cqucrap3narna16j21t7pkgmbh1n24jg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nirajsarode.heal",
+            "certificate_hash": "66e7e42e5a5eb2e2859ab764f118c0c8ae5c412b"
+          }
+        },
+        {
+          "client_id": "1752021545-oq9vcc8u6epkl1bbsmqr7oqvtu857ods.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHxsv9jiJKQM7PgZuAQilZr9oh-mjd5D8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1752021545-oq9vcc8u6epkl1bbsmqr7oqvtu857ods.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

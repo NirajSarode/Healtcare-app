@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_med"
+        android:icon="@drawable/icon10"
+        android:title="DOCTORS"/>
+
+    <item
+        android:id="@+id/navigation_appt"
+        android:icon="@drawable/icon17"
+        android:title="Appointments"/>
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/icon19"
+        android:title="WHERE AM I"/>
+
+    <item
+        android:id="@+id/navigation_pres"
+        android:icon="@drawable/icon13"
+        android:title="CALM YOURSELF"/>
+</menu>

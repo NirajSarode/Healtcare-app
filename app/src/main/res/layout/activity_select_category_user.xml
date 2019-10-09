@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectCategoryUserActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm a User(Patient)"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/patientsel"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm a Doctor"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/docsel"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="I'm a Medical"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:id="@+id/medsel"-->
+<!--        android:clickable="true"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:textColor="#FFFFFF"/>-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="I'm a Lab"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:id="@+id/labsel"-->
+<!--        android:clickable="true"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:textColor="#FFFFFF"/>-->
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logout"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

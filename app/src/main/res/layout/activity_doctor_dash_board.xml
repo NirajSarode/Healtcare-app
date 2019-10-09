@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DoctorDashBoardActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Appointments"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/manageappdoc"
+        android:onClick="Managaapp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/docprofile"
+        android:onClick="DoctorProfile"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logoutbtdoc"
+        android:clickable="true"
+        android:onClick="LogoutUser"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

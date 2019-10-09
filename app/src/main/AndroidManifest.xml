@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nirajsarode.heal">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DoctorProfileUpdateActivity"></activity>
+        <activity android:name=".DocAddPrescriptionActivity" />
+        <activity android:name=".DoctorViewPatientInfoActivity" />
+        <activity android:name=".PatientProfileUpdateActivity" />
+        <activity android:name=".MusicPlayerActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAF_sSUM8boKCwosf_6BWO7R1u-l4c_lsI" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SwitchActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".SelectDoctorActivity" />
+        <activity android:name=".DoctorInfoActivity" />
+        <activity android:name=".PatientProfileActivity" />
+        <activity android:name=".DoctorDashBoardActivity" />
+        <activity android:name=".PatientAppointmentsActivity" />
+        <activity android:name=".ShowMedicalsActivity" />
+        <activity android:name=".SelectMedsActivity" />
+        <activity android:name=".DoctorAppointmentsViewActivity" />
+        <activity android:name=".UserCartActivity" />
+        <activity android:name=".DoctorPatientInfoViewActivity" />
+        <activity android:name=".MedicalDashBoardActivity" />
+        <activity android:name=".SelectCategoryUserActivity" />
+        <activity android:name=".DoctorProfileActivity" />
+        <activity android:name=".MedicalProfileActivity" />
+        <activity android:name=".PatientAppointmentINFO" />
+        <activity android:name=".MedicalStockActivity" />
+        <activity android:name=".DocPatientPrescriptionsActivity" />
+        <activity android:name=".PrescriptionShowUserActivity" />
+        <activity android:name=".PrescriptionItemsUserActivity" />
+        <activity android:name=".DocPatientPrescriptionsItemsActivity" />
+        <activity android:name=".UserMyOrdersActivity" />
+        <activity android:name=".ShowProfileActivity" />
+    </application>
+
+</manifest>
